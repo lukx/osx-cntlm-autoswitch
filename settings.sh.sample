@@ -1,0 +1,12 @@
+# The IP range of your corporate network
+IP_RANGE_PREFIX="192.168."
+# These are the names of your "Network Locations"
+# the one that uses the corp proxy
+NET_LOC_IN_RANGE="Corporate"
+# the one that uses no proxy
+NET_LOC_OUT_RANGE="Home"
+# and where does cntlm look at?
+CNTLM_LISTEN="http://127.0.0.1:3128"
+
+# Toggles about different tools which can be auto-switched
+AUTO_SWITCH_NPM=true

@@ -1,0 +1,16 @@
+Username YOUR_USER
+Domain YOUR_DOMAIN
+
+Proxy       YOUR_UPSTREAM_PROXY
+# you can add more upstream proxies if you like
+
+NoProxy localhost, 127.0.0.*, 10.*, 192.168.*
+
+# this seems to get NPM install to work better sometimes
+Header      Connection: close
+
+Listen 3128
+Auth NTLMv2
+PassNTLMv2      YOUR_NTLMV2_HASH
+
+# line-break at the end of the file, or cntlm will ignore the last line

@@ -1,0 +1,5 @@
+.DS_Store
+*.zip
+*.bak
+cntlm.Corporate.conf
+settings.sh
