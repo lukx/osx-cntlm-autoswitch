@@ -7,7 +7,7 @@ It is intended to work on macOS.
 
 * you have cntlm installed as a service via [brew](https://brew.sh/)
 * you have two network locations configured in OSX Network Settings:
-	* one (in our sample: "Coproprate") pointing http proxy and https proxy to your local CNTLM
+	* one (in our sample: "Corporate") pointing http proxy and https proxy to your local CNTLM
 	* one (in our sample: "Home") using no proxy at all
 
 ## Setting up
